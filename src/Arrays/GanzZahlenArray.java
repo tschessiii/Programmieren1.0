@@ -1,3 +1,5 @@
+package Arrays;
+
 public class GanzZahlenArray {
     public static void main(String[] args){
      int[] array = {3,6,8,4,2,7,9}; //Arrays.Array auffüllen

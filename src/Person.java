@@ -24,11 +24,35 @@ public class Person {
 
         for (int i = 0; i < haustier.length;i++){//laufen alle Haustiere durch
             if(haustier[i]==null){//Sobald an einer Stelle null also ein Platz für ein neues Tier ist kommt eins rein
+                System.out.println("Willkommen "+tier+"!");
                 haustier[i] = tier;
                 break;
             }
         }
     }
+
+    public int anzahlHaustier(){
+        int counter = 0;
+        for (String tier:haustier){//Wir gehen jedes Tier durch
+            if(tier != null){//Wenn es an einer Stelle ein Tier gibt, erhöhen wir den Counter um 1
+                counter++;
+            }
+        }
+        return counter;
+    }
+
+    public void haustiereInfo(){
+        System.out.println(vorname+" hat "+anzahlHaustier()+" Haustier(e).");
+        for (String tier :haustier){
+            if(tier != null){
+                System.out.println(tier);
+            }
+        }
+    }
+
+
+
+
     //To String zum Ausgeben erstellen
     @Override
     public String toString() {
