@@ -27,8 +27,13 @@ public class Klassen1 {
         System.out.println(r1);
          */
 
-        Person person1 = new Person("Kriegl","Jessica",23);
+        Person person1 = new Person("Pan","Peter",23);
         System.out.println(person1);
+
         person1.neuesHaustier("Hund");
+        person1.neuesHaustier("Katze");
+        person1.neuesHaustier("Schlange");
+        person1.haustiereInfo();
+        System.out.println(person1.anzahlHaustier());
     }
 }
