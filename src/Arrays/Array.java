@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Arrays;
 
 public class Array {
@@ -7,7 +9,7 @@ public class Array {
         int geradezahl = 2;
 
         for (int i = 0; i <=99; i++) {
-            //Option2- wir machen aus geradezahlen ein int-Array
+            //Option2- wir machen aus geradezahlen ein int-Arrays.Array
             gerade[i] =geradezahl;
             //Ausgabe in der Schleife
             geradezahl = geradezahl +2;

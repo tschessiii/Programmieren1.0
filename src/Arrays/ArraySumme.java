@@ -1,6 +1,8 @@
+package Arrays;
+
 public class ArraySumme {
     public static void main(String[] arsg){
-        int[] zahlen = {1,2,3,4,5,6}; //Array auffüllen
+        int[] zahlen = {1,2,3,4,5,6}; //Arrays.Array auffüllen
         System.out.println("Die Summe der zahlen beträgt "+summe(zahlen)+ "!");//Ausgeben
     }
 

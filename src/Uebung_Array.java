@@ -15,17 +15,17 @@ public class Uebung_Array {
         System.out.println(c);
         //.....
 
-        //Array erstellen
+        //Arrays.Array erstellen
         int[] array = new int[3];
         array[0]=4;
         array[1]=5;
         array[2]=5;
 
-        //Array Ausgeben
+        //Arrays.Array Ausgeben
         System.out.println(array);//bekommt man giblisch herraus "[I@65ab7765"
         System.out.println(Arrays.toString(array));
 
-        //Array mit einer anderen Art erstellen
+        //Arrays.Array mit einer anderen Art erstellen
         int[] arr= {4,5,6};
         for (int i = 0; i < arr.length;i++ ){
             System.out.println(arr[i]);

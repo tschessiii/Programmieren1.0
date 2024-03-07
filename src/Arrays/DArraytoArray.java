@@ -1,7 +1,9 @@
+package Arrays;
+
 import java.util.Arrays;
 
 public class DArraytoArray {
-    //2D Array zu einem normalen Array
+    //2D Arrays.Array zu einem normalen Arrays.Array
 
 
    public static void main(String[] args){

@@ -1,8 +1,10 @@
+package Arrays;
+
 public class ArrayNumbers {
     public static void main(String[] arsg) {
-        int[] numbers = {1, 2, 3, 4, 5}; //Array auffüllen
+        int[] numbers = {1, 2, 3, 4, 5}; //Arrays.Array auffüllen
         int n = 5;
-        System.out.println("Ist " + n + " im Array vorhanden? " + printarray(numbers, n));
+        System.out.println("Ist " + n + " im Arrays.Array vorhanden? " + printarray(numbers, n));
     }
 
     //Methode zum Überprüfen ob der Wert n drin ist
