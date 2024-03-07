@@ -1,3 +1,5 @@
+package Hausübung;
+
 import javax.swing.text.Style;
 import java.util.Scanner;
 
