@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class HÜ7 {
     public static void main(String[] args){
+    Aufgabe();
+
+    }
+    public static void Aufgabe(){
         Scanner scanner = new Scanner(System.in);
 
 
@@ -21,7 +25,7 @@ public class HÜ7 {
             System.out.println("Geben Sie hier ihre Geldsumme ein:");
             int sum2 = scanner.nextInt();
             double result= sum2* 25.37;
-            System.out.println(sum2+ "e betragen "+result+ " Tschechische Kronen");
+            System.out.println(sum2+ "€ betragen "+result+ " Tschechische Kronen");
         } else if (choice == 3) {
             System.out.println("Geben Sie hier ihre Geldsumme ein:");
             int sum3 = scanner.nextInt();
@@ -35,7 +39,5 @@ public class HÜ7 {
         }else {
             System.out.println("Falsche Eingabe. Bitte eine Option zwischen 1 und 4.");
         }
-
-
     }
 }
