@@ -1,3 +1,5 @@
+package Hausübung;
+
 import java.util.Scanner;
 
 public class HÜ3 {

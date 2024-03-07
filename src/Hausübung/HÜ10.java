@@ -1,3 +1,5 @@
+package Hausübung;
+
 public class HÜ10 {
     public static void main(String[] args){
 
