@@ -13,5 +13,6 @@ public class GanzZahlenArray {
         for (int number : numbers) { //Wir übergeben der int number die numbers
             System.out.printf(number+ "," ); //Zahlen ausgeben
         }
+
     }
 }
