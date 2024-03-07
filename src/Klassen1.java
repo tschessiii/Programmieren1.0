@@ -11,10 +11,10 @@ public class Klassen1 {
         */
 
         /*
-        Kreis Beispiel:
-        Kreis k1 = new Kreis(3);
-        Kreis k2= new Kreis(2);
-        Kreis k3= new Kreis(6);
+        Klassen.Kreis Beispiel:
+        Klassen.Kreis k1 = new Klassen.Kreis(3);
+        Klassen.Kreis k2= new Klassen.Kreis(2);
+        Klassen.Kreis k3= new Klassen.Kreis(6);
 
         System.out.println(k1);
         System.out.println(k2);
@@ -23,7 +23,7 @@ public class Klassen1 {
 
         /*
         Rechteck Beispiel:
-        Rechteck1 r1 = new Rechteck1(4, 6);
+        Klassen.Rechteck1 r1 = new Klassen.Rechteck1(4, 6);
         System.out.println(r1);
          */
 

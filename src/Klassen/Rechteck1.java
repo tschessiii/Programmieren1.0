@@ -1,3 +1,5 @@
+package Klassen;
+
 public class Rechteck1 {
 
     public int a;

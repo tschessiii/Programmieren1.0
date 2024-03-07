@@ -1,3 +1,5 @@
+package Klassen;
+
 public class Hund_Klasse {
     private int alter;
     private String rasse;
