@@ -1,3 +1,7 @@
+package Klassen;
+
+import Klassen.Lehrveranstaltung;
+
 public class Klassen1 {
     public static void main(String[] args) {
 
