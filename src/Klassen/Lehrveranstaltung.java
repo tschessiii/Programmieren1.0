@@ -1,3 +1,5 @@
+package Klassen;
+
 import java.util.Arrays;
 
 public class Lehrveranstaltung {
@@ -14,7 +16,7 @@ public class Lehrveranstaltung {
 
     @Override
     public String toString() {
-        return "Lehrveranstaltung{" +
+        return "Klassen.Lehrveranstaltung{" +
                 "bezeichnung='" + bezeichnung + '\'' +
                 ", id=" + id +
                 ", noten=" + Arrays.toString(noten) +
