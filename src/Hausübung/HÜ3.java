@@ -20,7 +20,7 @@ public class HÜ3 {
         System.out.println("Wie ist das Wetter? (sonnig, bewölkt, regen");
         String wetter = scanner.next().toLowerCase();
 
-        //Wenn Wetter ungleich sonnig, bewölkt und regen: Ausgabe = Vertippt?
+        //Wenn Wetter nicht gleich sonnig, bewölkt und regen: Ausgabe = Vertippt?
         if (!wetter.equals("sonnig") && !wetter.equals("bewölkt") && !wetter.equals("regen")){
             System.out.println("Hast du dich vielleicht Vertippt?");
         }
