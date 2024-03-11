@@ -21,4 +21,8 @@ public class Player {
    public void gewonnen(int p){
         Punkte = Punkte+p;
    }
+
+    public int getPunkte() {
+        return Punkte;
+    }
 }
