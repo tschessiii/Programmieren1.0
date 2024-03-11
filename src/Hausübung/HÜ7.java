@@ -7,6 +7,7 @@ public class HÜ7 {
     Aufgabe();
 
     }
+
     public static void Aufgabe(){
         Scanner scanner = new Scanner(System.in);
 
