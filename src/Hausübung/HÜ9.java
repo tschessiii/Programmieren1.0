@@ -21,7 +21,7 @@ public class HÜ9 {
         int nummer= 1;
         while (nummer<=100){
             if (nummer % x == 0){
-                System.out.println(nummer + " ");
+                System.out.print(nummer + " ");
             }
             nummer++;
         }
