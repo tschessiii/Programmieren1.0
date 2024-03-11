@@ -16,9 +16,9 @@ public class Spielplatz {
         System.out.println(b1);
         */
 
-        Messung m1 = new Messung(4);
-        m1.messungAmTag("donnerstag",10.3);
-        m1.messungAmTag("monatg",7);
+        Messung m1 = new Messung(11);
+        m1.messungAmTag("Donnerstag",4);
+        m1.messungAmTag("Montag",3);
 
 
 
