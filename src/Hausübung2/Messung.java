@@ -18,25 +18,25 @@ public class Messung {
 
     private int Tageszahl(String tag){
         switch (tag.toLowerCase()){
-            case "Montag":
+            case "montag":
                 return 0 ;
 
-            case "Dienstag":
+            case "dienstag":
                 return 1;
 
-            case "Mittwoch":
+            case "mittwoch":
                 return 2;
 
-            case "Donnerstag":
+            case "donnerstag":
                 return 3;
 
-            case "Freitag":
+            case "freitag":
                 return 4;
 
-            case "Samstag":
+            case "samstag":
                 return 5;
 
-            case "Sonntag":
+            case "sonntag":
                 return 6;
 
             default:
