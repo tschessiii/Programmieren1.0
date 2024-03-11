@@ -18,4 +18,14 @@ public class Spielerverwaltung {
             System.out.println("Voll!");
         }
     }
+
+    public Player besterSpieler(){
+        Player p =this.spieler[0];
+        for (int i = 0; i < this.spieler.length; i++) {
+            if(this.spieler[i].getPunkte() > p.getPunkte()){
+                p= spieler[i];
+            }
+        }
+        return p;
+    }
 }
