@@ -12,7 +12,7 @@ public class Tamagochi_Test {
         Tamagochi pet = new Tamagochi(scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
         System.out.println(pet.toString());
 
-        //Bett bewegen, falls der Futterstand 0 ist
+        //Pet bewegen, falls der Futterstand 0 ist
         pet.bewegen();
         System.out.println(pet.toString());
 
