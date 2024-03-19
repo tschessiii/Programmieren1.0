@@ -9,13 +9,14 @@ public class Tamagochi {
     private int y;
     private int futterstand;
 
+    //Konstruktor
     public Tamagochi(int x, int y, int futterstand) {
         this.x = x;
         this.y = y;
         this.futterstand = futterstand;
     }
 
-
+//Bewegung
     public void bewegen() {
 
         Scanner scanner = new Scanner(System.in);
