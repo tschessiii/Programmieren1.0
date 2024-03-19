@@ -1,3 +1,5 @@
+package Tamagochi;
+
 import java.util.Scanner;
 public class Tamagochi_Test {
     public static void main(String[] args){

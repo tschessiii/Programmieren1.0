@@ -1,3 +1,5 @@
+package Tamagochi;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -58,7 +60,7 @@ public class Tamagochi {
 
     @Override
     public String toString() {
-        return "Tamagochi{" +
+        return "Tamagochi.Tamagochi{" +
                 "x=" + x +
                 ", y=" + y +
                 ", futterstand=" + futterstand +
