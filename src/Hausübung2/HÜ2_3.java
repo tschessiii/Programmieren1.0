@@ -28,7 +28,7 @@ public class HÜ2_3 {
             System.out.println("Bitte eine Zahl die größer als 0 ist!");
         }//Wenn k kleiner als null ist Error ausgeben
 
-        //Methode in der Übungen.Main erwähnen
+        //Methode in der Übungen.Wrapper_Klassen.Main erwähnen
         wort =entfernen(wort, k);
 
         //Ausgabe der übrigen Wörter

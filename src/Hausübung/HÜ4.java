@@ -17,7 +17,7 @@ public class HÜ4 {
         //Variable bmi initailisieren
         double bmi = rechnung(gewicht,groesse);
 
-        //Methode im Übungen.Main auffrufen
+        //Methode im Übungen.Wrapper_Klassen.Main auffrufen
         ausgabe(bmi);
 
         //Scanner schließen
