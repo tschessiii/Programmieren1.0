@@ -1,3 +1,5 @@
+package MethodenÜberlagung;
+
 public class Rechner {
 
     private int a;

@@ -1,3 +1,5 @@
+package MethodenÜberlagung;
+
 public class Drucker {
 
     //Drucken von STRING
