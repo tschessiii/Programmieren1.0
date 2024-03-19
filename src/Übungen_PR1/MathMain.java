@@ -1,3 +1,5 @@
+package Übungen_PR1;
+
 public class MathMain {
  public static void main(String[] args){
         MatheRechner.add(5,2);
