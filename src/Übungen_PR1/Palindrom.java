@@ -1,7 +1,6 @@
-package Übungen;
+package Übungen_PR1;
 
 import java.util.Scanner;
-import java.util.SimpleTimeZone;
 
 public class Palindrom {
     public static void main(String[] args){

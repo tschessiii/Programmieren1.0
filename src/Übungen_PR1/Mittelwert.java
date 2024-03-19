@@ -1,4 +1,4 @@
-package Übungen;
+package Übungen_PR1;
 
 import java.util.Scanner;
 

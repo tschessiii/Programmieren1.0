@@ -1,3 +1,5 @@
+package Übungen_PR1;
+
 public class MatheRechner {
 
     public static void add(int a, int b){

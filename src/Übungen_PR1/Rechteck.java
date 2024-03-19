@@ -1,4 +1,4 @@
-package Übungen;
+package Übungen_PR1;
 
 public class Rechteck {
     public static void main(String[] args) {
