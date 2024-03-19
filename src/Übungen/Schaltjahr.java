@@ -1,3 +1,5 @@
+package Übungen;
+
 public class Schaltjahr {
 
     public static void main(String[] args) {

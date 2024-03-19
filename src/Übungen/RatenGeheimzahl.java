@@ -1,3 +1,5 @@
+package Übungen;
+
 import java.util.Scanner;
 
 public class RatenGeheimzahl {

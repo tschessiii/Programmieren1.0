@@ -3,7 +3,7 @@ package Part5;
 public class TestGrund {
     public static void main(String[] args){
 
-        //Wir erstellen eine neue Person:
+        //Wir erstellen eine neue Übungen.Person:
         Grundsteuer f1 = new Grundsteuer();
 
 

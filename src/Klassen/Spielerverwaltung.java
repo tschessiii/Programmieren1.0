@@ -1,3 +1,7 @@
+package Klassen;
+
+import Klassen.Player;
+
 public class Spielerverwaltung {
 
     private Player[] spieler;

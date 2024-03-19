@@ -33,7 +33,7 @@ public class Grundsteuer {
             }
 
         }
-        //Wir geben die Summe in die Main zurück
+        //Wir geben die Summe in die Übungen.Main zurück
        return sum;
 
     }

@@ -1,3 +1,5 @@
+package Klassen;
+
 public class Player {
     public String Name;
     public int Punkte;

@@ -1,3 +1,5 @@
+package Übungen;
+
 import java.util.Scanner;
 
 public class Passwort {
@@ -8,12 +10,12 @@ public class Passwort {
 
 
         do {
-            System.out.println("Geben Sie ihr Passwort ein:");
+            System.out.println("Geben Sie ihr Übungen.Passwort ein:");
             pw = scanner.next();
 
         } while (!pw.equals("geheim"));
 
-        System.out.println("Passwort korrekt!");
+        System.out.println("Übungen.Passwort korrekt!");
 
     }
 

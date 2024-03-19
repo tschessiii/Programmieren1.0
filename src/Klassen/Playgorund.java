@@ -1,3 +1,5 @@
+package Klassen;
+
 public class Playgorund {//für Klassen
     public static void main(String[] args) {
 

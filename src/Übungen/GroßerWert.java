@@ -1,3 +1,5 @@
+package Übungen;
+
 import java.util.Scanner;
 
 public class GroßerWert {
@@ -15,7 +17,7 @@ public class GroßerWert {
 
         double max = findeMax(a, b, c);
 
-        System.out.println("Der größte Wert der Zahlen "+a+" und "+b+" und "+c+" ist gleich: "+max);
+        System.out.println("Der größte Wert der Übungen.Zahlen "+a+" und "+b+" und "+c+" ist gleich: "+max);
 
         scanner.close();
 

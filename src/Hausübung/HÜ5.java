@@ -20,18 +20,18 @@ public class HÜ5 {
 
         //Minimum
         int minimum = min(num1, num2);
-        System.out.println("Das minimum der Zahlen " + num1 + " und " + num2 + " beträgt: " + minimum);
+        System.out.println("Das minimum der Übungen.Zahlen " + num1 + " und " + num2 + " beträgt: " + minimum);
 
         //Maximum
         int maximum = max(num1, num2);
-        System.out.println("Das maximum der Zahlen " + num1 + " und " + num2 + " beträgt: " + maximum);
+        System.out.println("Das maximum der Übungen.Zahlen " + num1 + " und " + num2 + " beträgt: " + maximum);
 
         //Absolut
         int absolut = abs(num2);
         System.out.println("Der Absolute Wert der Zahl " + num2 + " beträgt " + absolut);
     }
 
-    //Methode zum addieren der zwei Zahlen
+    //Methode zum addieren der zwei Übungen.Zahlen
     public static int add(int a, int b) {
 
         return a + b;

@@ -1,3 +1,5 @@
+package Übungen;
+
 public class Rechteck {
     public static void main(String[] args) {
         // Deklaration der Variablen für die Seitenlängen eines Rechtecks

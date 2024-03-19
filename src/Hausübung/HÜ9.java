@@ -17,7 +17,7 @@ public class HÜ9 {
         }
 
         //Ausgabe
-        System.out.println("Die Zahlen von 1 bis 100 die durch " +x+ " teilbar sind: ");
+        System.out.println("Die Übungen.Zahlen von 1 bis 100 die durch " +x+ " teilbar sind: ");
         int nummer= 1;
         while (nummer<=100){
             if (nummer % x == 0){

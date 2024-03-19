@@ -1,3 +1,5 @@
+package Übungen;
+
 import java.util.Scanner;
 
 public class Bankomat {
@@ -12,7 +14,7 @@ public class Bankomat {
         int option;
         do {
             // Menü anzeigen
-            System.out.println("\nBankomat Menü:");
+            System.out.println("\nÜbungen.Bankomat Menü:");
             System.out.println("1. Einzahlung");
             System.out.println("2. Auszahlung");
             System.out.println("3. Kontostand anzeigen");

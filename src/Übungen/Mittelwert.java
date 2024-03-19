@@ -1,3 +1,5 @@
+package Übungen;
+
 import java.util.Scanner;
 
 public class Mittelwert {
@@ -12,12 +14,12 @@ public class Mittelwert {
 
         double durchschnitt = Mittelwert(num1, num2);
 
-        System.out.println("Der Mittelwert von " + num1 + " und " + num2 + " ist: " + durchschnitt);
+        System.out.println("Der Übungen.Mittelwert von " + num1 + " und " + num2 + " ist: " + durchschnitt);
 
         scanner.close();
     }
 
-    // Methode zur Berechnung des Mittelwerts von zwei Zahlen
+    // Methode zur Berechnung des Mittelwerts von zwei Übungen.Zahlen
     public static double Mittelwert(double num1, double num2) {
 
         return (num1 + num2) / 2;

@@ -26,14 +26,14 @@ public class Klassen1 {
          */
 
         /*
-        Rechteck Beispiel:
+        Übungen.Rechteck Beispiel:
         Klassen.Rechteck1 r1 = new Klassen.Rechteck1(4, 6);
         System.out.println(r1);
          */
 
         /*
-        Person Beispiel:
-        Person person1 = new Person("Pan","Peter",23);
+        Übungen.Person Beispiel:
+        Übungen.Person person1 = new Übungen.Person("Pan","Peter",23);
         System.out.println(person1);
 
         person1.neuesHaustier("Hund");

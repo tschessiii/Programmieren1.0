@@ -13,7 +13,7 @@ public class GanzZahlenArray {
 
     private static void Array(int[] numbers) {
         for (int number : numbers) { //Wir übergeben der int number die numbers
-            System.out.printf(number+ "," ); //Zahlen ausgeben
+            System.out.printf(number+ "," ); //Übungen.Zahlen ausgeben
         }
 
     }

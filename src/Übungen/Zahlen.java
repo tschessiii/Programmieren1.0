@@ -1,3 +1,5 @@
+package Übungen;
+
 public class Zahlen {
 
     public static void main(String[] args) {

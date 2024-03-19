@@ -16,7 +16,7 @@ public class HÜ8 {
             System.out.println("Die Angegebene Zahl ist nicht positiv!");
         }else {
             double sum = ausgabe(zahl);
-            System.out.println("Die Summe aller Zahlen von "+zahl+ " beträgt "+sum);
+            System.out.println("Die Summe aller Übungen.Zahlen von "+zahl+ " beträgt "+sum);
         }
     }
     public static double ausgabe(int a){
