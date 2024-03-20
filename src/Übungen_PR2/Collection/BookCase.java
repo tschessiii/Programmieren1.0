@@ -4,14 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookCase {
-        List<Book> bookList = new ArrayList<>();
+        List<Book> books = new ArrayList<>();
+        //Erstellen eine Liste in der Klasse BookCase
 
+    //Nur Methode
     public void addBook(Book book){
-        bookList.add(book);
+        books.add(book);//Das ist der Klammer ist der Parameter
     }
 
     public void showReadBooks(){
-        for (Book book:bookList) {//For gibt jedem Element im Book den Wert book und geht damit die Liste booklist durch
+        for (Book book: books) {//For gibt jedem Element im Book den Wert book und geht damit die Liste booklist durch
             if(book.isFinished()){//Überprüft ob eines der books true ist
                 System.out.println("Title:"+book.getTitle());
             }
@@ -21,7 +23,7 @@ public class BookCase {
 
 
     public void showUnreadBooks(){
-        for(Book book:bookList){
+        for(Book book: books){
             if(!book.isFinished()){
                 System.out.println("Title:"+book.getTitle());
             }
