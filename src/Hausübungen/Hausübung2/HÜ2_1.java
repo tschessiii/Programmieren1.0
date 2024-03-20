@@ -8,7 +8,7 @@ public class HÜ2_1 {
     }
     public static double rechne(int[] array){
         int sum = 0;
-        for (int num : array){//Jedes Element des Arrays wir der Variable num zugewiesen
+        for (int num : array){//Jedes Element des Übungen_PR1.AllgemeineÜbungen.Arrays wir der Variable num zugewiesen
             sum=sum+num;
         }
         return(double) sum/array.length;// sum ist die Summe aller Elemente im Array //array.lenght ist die Anzahl alle Elemente im Array

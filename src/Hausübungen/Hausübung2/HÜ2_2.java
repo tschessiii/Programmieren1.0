@@ -11,7 +11,7 @@ public class HÜ2_2 {
         int anzahl = scanner.nextInt();
 
 
-        //Erstellen des Arrays
+        //Erstellen des Übungen_PR1.AllgemeineÜbungen.Arrays
         int[] noten = new int[anzahl];
 
         //Eingabe der Noten

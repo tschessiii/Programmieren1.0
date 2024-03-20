@@ -15,7 +15,7 @@ public class HÜ2 {
         //Sonst wenn alter größer gleich 16: Ausgabe
         //Sonst: Ausgabe
         if(alter >= 18){
-            System.out.println("Sie sind alt genug, um eine Lenkerberechtigung für die Klassen B und A1 zu erhalten.");
+            System.out.println("Sie sind alt genug, um eine Lenkerberechtigung für die Übungen_PR1.AllgemeineÜbungen.Klassen B und A1 zu erhalten.");
         } else if (alter >=16) {
             System.out.println("Sie sind alt genug, um eine Lenkerberechtigung für die Klasse AM zu erhalten.");
         } else{

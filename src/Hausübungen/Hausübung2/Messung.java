@@ -8,7 +8,7 @@ public class Messung {
         this.woche = woche;
         this.messungen = new double[7][3];
 
-        //Initalisieren des Arrays mit den Standart Werten 0.0
+        //Initalisieren des Übungen_PR1.AllgemeineÜbungen.Arrays mit den Standart Werten 0.0
         for (int i = 0; i<7;i++){
             for(int j=0;j<3;j++){
                 this.messungen[i][j]=0.0;
