@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 public class PhoneBookService {
 
-    private Map<String, String> phonebook;
+    private Map<String, String> phonebook;//Speichert die Daten key und name
 
     public PhoneBookService(Map<String, String> phonebook) {
         this.phonebook = phonebook;
