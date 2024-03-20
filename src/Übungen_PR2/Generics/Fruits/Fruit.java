@@ -1,4 +1,4 @@
-package Übungen_PR2.Generics;
+package Übungen_PR2.Generics.Fruits;
 
 public class Fruit {
     private Color color;

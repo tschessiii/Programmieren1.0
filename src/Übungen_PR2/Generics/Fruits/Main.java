@@ -1,4 +1,6 @@
-package Übungen_PR2.Generics;
+package Übungen_PR2.Generics.Fruits;
+
+import Übungen_PR2.Generics.Printer.GenericPrinter;
 
 public class Main {
     public static void main(String[] args) {

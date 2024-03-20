@@ -1,4 +1,4 @@
-package Übungen_PR2.Generics;
+package Übungen_PR2.Generics.Fruits;
 
 public class FruitPrinter {
     public void print(Fruit fruit){
