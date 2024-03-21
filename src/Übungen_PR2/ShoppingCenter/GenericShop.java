@@ -9,9 +9,20 @@ public class GenericShop<T> {
     private Map<String, T> products = new HashMap<>();
 
 
-    //public void addProductsFromDelivery(DeliveryService<T>ds){
+    public void sellAProduct(String productname){
+        products.remove(productname);
+    }
 
-    // }
+
+    public GenericShop(String name, HashMap<String, T> products) {
+        this.name = name;
+        this.products = products;
+    }
+
+    public void addProductsFromDelivery(HashMap<String, T> deliveredProducts){
+        products.putAll(deliveredProducts);
+        deliveredProducts.clear();
+    }
 
     public void showProduct() {
         System.out.println("Welcome to " + name);
