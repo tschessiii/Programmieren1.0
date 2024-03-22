@@ -26,6 +26,11 @@ public class Paket{
     }
 
 
-
-
+    @Override
+    public String toString() {
+        return "Paket{" +
+                "id=" + id +
+                ", adresse='" + adresse + '\'' +
+                '}';
+    }
 }
