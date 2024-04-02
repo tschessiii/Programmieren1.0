@@ -13,7 +13,7 @@ public class FilialPost {
     //Constructor erstellen
     public FilialPost(int maxAnzahlPakete) {
         this.pakete = new Paket[maxAnzahlPakete];
-        this.anzahlPakete = 0;
+        this.anzahlPakete = 0;// nicht notwendig, trotzdem da
         this.maxAnzahlPakete = maxAnzahlPakete;
     }
 
@@ -30,10 +30,12 @@ public class FilialPost {
     //Methode zum Pakete entfernen
     public void paketEntfernen(int paketID) {
         boolean found = false;//Wir erstellen eine Variable found und setzten sie auf false
-        for (int i = 0; i < anzahlPakete; i++) {//iteiert duchr das Array pakete, das alle Pakete enthält die von der Filale verwaltet werden
+        for (int i = 0; i < anzahlPakete; i++) {//iteiert durch das Array pakete, das alle Pakete enthält die von der Filale verwaltet werden
             if (pakete[i].getId() == paketID) {//Innerhalb der Schleife wird überprüft, ob die ID des Pakets an der aktuellen Position i im Array mit der angegebenen paketID übereinstimmt
                 pakete[i] = null;//Wenn das gesucht Paket gefunden wird, wird es gleich null entfernt
                 found = true;//Setzt die Anzeige auf True, da das gesuchte Paket gefunden wurde
+                anzahlPakete --;
+                maxAnzahlPakete --;
                 break;
             }
         }

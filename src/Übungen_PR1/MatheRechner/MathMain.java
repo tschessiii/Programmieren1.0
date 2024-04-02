@@ -1,4 +1,4 @@
-package Übungen_PR1.AllgemeineÜbungen;
+package Übungen_PR1.MatheRechner;
 
 public class MathMain {
  public static void main(String[] args){
