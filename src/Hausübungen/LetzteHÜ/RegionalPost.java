@@ -10,11 +10,11 @@ public class RegionalPost {
         filialPost.paketeHinzufügen(new Paket(3, "Kirschstraße 16"));
         filialPost.paketeHinzufügen(new Paket(4, "Baumstraße 1"));
         filialPost.paketeHinzufügen(new Paket(5, "Leitergasse 4"));
-        filialPost.paketeHinzufügen(new Paket(6, "Birnengasse 4"));
 
         //Pakete entfernen
         filialPost.paketEntfernen(2);
         filialPost.paketEntfernen(1);
+
 
 
 

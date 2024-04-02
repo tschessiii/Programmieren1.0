@@ -35,7 +35,6 @@ public class FilialPost {
                 pakete[i] = null;//Wenn das gesucht Paket gefunden wird, wird es gleich null entfernt
                 found = true;//Setzt die Anzeige auf True, da das gesuchte Paket gefunden wurde
                 anzahlPakete --;
-                maxAnzahlPakete --;
                 break;
             }
         }
