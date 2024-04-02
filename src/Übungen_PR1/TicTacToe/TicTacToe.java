@@ -1,4 +1,4 @@
-package Übungen_PR1.Part4;
+package Übungen_PR1.TicTacToe;
 import java.util.Arrays;
 import java.util.Scanner;
 public class TicTacToe {
@@ -11,7 +11,7 @@ public class TicTacToe {
         public static void ticTacToeMoeglicheLoesung1(){
             //Eine andere moegliche Loesung des Spiels TicTactoe
 
-            //Wir legen fuer jedes Feld in unserem TicTacToe fest,
+            //Wir legen fuer jedes Feld in unserem Übungen_PR1.TicTacToe fest,
             //dass die Belegung 0 = kein Spieler, 1 = Spieler X, 2 = Spieler O
 
             //Wir erzeugen ein zweidimensionales int-erledigt.Array um das Feld zu zeichnen und befuellen es mit 0,
