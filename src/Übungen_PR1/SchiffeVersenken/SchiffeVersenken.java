@@ -44,7 +44,7 @@ public class SchiffeVersenken {
 
 
 
-    // Schiffe plazieren
+    // Schiffe platzieren
     private void platzierenSchiffe() {
         // Vereinfachte Platzierung der Schiffe - ein Schiff pro Zeile
         for (int i = 0; i < GRID_SIZE; i++) {
