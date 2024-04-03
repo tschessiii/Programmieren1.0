@@ -1,4 +1,4 @@
-package Übungen_PR1.AllgemeineÜbungen;
+package Übungen_PR1.Verschachtelung;
 
 public class Verschachteln {
     public static void main(String[] args) {
