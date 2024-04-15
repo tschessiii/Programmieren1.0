@@ -1,4 +1,4 @@
-package Übung_für_KlausurPR1.Part1;
+package Klausur_PR1.Übung_für_KlausurPR1.Part1;
 
 import java.util.Scanner;
 

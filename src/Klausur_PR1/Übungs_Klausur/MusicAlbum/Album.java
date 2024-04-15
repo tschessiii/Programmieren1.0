@@ -1,4 +1,4 @@
-package Übungs_Klausur.MusicAlbum;
+package Klausur_PR1.Übungs_Klausur.MusicAlbum;
 
 public class Album {
 

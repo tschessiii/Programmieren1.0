@@ -1,4 +1,4 @@
-package Übung_für_KlausurPR1.Part3;
+package Klausur_PR1.Übung_für_KlausurPR1.Part3;
 
 public class Übung1 {
     public static void main(String[] args) {
