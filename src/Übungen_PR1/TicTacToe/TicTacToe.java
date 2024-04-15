@@ -4,13 +4,10 @@ import java.util.Scanner;
 public class TicTacToe {
 
         public static void main(String[] args) {
-            ticTacToeMoeglicheLoesung1(); //Ich persoenlich finde dieser einfacher zu verstehen
-            //ticTacToeMoeglicheLoesung2(); //wollte Ihnen Zeigen, dass sie auch mit CHAR oder STRING arbeiten koennen
+            ticTacToeMoeglicheLoesung1();
         }
 
         public static void ticTacToeMoeglicheLoesung1(){
-            //Eine andere moegliche Loesung des Spiels TicTactoe
-
             //Wir legen fuer jedes Feld in unserem Übungen_PR1.TicTacToe fest,
             //dass die Belegung 0 = kein Spieler, 1 = Spieler X, 2 = Spieler O
 

@@ -22,7 +22,7 @@ public class MainZuAnimals {
         }
         System.out.println("----------------------------------");
 
-        //Nur den Namen ausgeben der Tiere:
+        //Nur den Namen ausgeben der Programmiere_2_Hofer.UebungsbspVererbung.Tiere:
         for (Animal animal : animalList){
             System.out.println(animal.getName());
         }
