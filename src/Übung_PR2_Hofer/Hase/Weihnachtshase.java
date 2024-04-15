@@ -2,8 +2,8 @@ package Übung_PR2_Hofer.Hase;
 
 public class Weihnachtshase extends Hase{
 
-    public Weihnachtshase(String name) {
-        super(name);
+    public Weihnachtshase(String name, int alter, int karotten) {
+        super(name,alter,karotten);
     }
 
     public void verteileGeschenke(){

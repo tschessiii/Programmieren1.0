@@ -11,10 +11,10 @@ public class App {
     public static void main(String[] args) {
         HashMap<Integer, Hase> register = new HashMap<>();
 
-        Hase h1 = new Hase("Hansi");
-        Hase h2 = new Hase("Susi");
-        Hase h3 = new Osterhase("Mr. Easter");
-        Hase h4 = new Weihnachtshase("Fluffels");
+        Hase h1 = new Hase("Hansi",12,33);
+        Hase h2 = new Hase("Susi",4,12);
+        Hase h3 = new Osterhase("Mr. Easter",43,22);
+        Hase h4 = new Weihnachtshase("Fluffels",34,22);
 
         register.put(1001,h1);
         register.put(1002,h2);
