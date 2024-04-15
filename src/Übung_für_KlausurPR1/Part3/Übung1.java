@@ -1,7 +1,5 @@
 package Übung_für_KlausurPR1.Part3;
 
-import Übungen_PR1.Arrays.Array;
-
 public class Übung1 {
     public static void main(String[] args) {
         //Manuell ein Array mit 10 Ganzzahlen also int erzeugen
