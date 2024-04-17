@@ -61,4 +61,9 @@ public class Property implements Comparable<Property> {
         }
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Property Besitzer*in=" + owner+ ": "+area;
+    }
 }
