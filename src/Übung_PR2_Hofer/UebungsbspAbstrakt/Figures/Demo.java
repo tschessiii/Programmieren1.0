@@ -32,5 +32,8 @@ public class Demo {
         System.out.println(f.getAverageSize());
         System.out.println(f.getMaxPerimeter());
         System.out.println(f.getAreaBySizeCategories());
+
+
+        //War leider krank und habe es nicht fertig bekommen :(
     }
 }
