@@ -9,7 +9,7 @@ public class BookCase {
 
     //Nur Methode
     public void addBook(Book book){
-        books.add(book);//Das ist der Klammer ist der Parameter
+        books.add(book);//Das in der Klammer ist der Parameter
     }
 
     public void showReadBooks(){
@@ -20,7 +20,6 @@ public class BookCase {
 
         }
     }
-
 
     public void showUnreadBooks(){
         for(Book book: books){
