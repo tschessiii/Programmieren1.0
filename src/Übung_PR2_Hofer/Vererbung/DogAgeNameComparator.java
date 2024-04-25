@@ -11,7 +11,7 @@ public class DogAgeNameComparator implements Comparator<Dog> {
     public int compare(Dog o1, Dog o2) {
         int cmp = Integer.compare(o1.getAlter(), o2.getAlter());
         if(cmp !=0){
-            //alter ist schon unterschiedlich - Müssen namen nucht mehr
+            //alter ist schon unterschiedlich - Müssen namen nicht mehr
             return cmp;
         }
 
