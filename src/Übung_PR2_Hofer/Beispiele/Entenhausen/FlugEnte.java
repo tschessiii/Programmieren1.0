@@ -1,6 +1,4 @@
-package Übung_PR2_Hofer.Entenhausen;
-
-import java.util.Comparator;
+package Übung_PR2_Hofer.Beispiele.Entenhausen;
 
 public class FlugEnte extends Ente {
     protected int gewichtFedern;

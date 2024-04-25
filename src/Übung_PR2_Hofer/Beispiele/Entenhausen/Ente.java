@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.Entenhausen;
+package Übung_PR2_Hofer.Beispiele.Entenhausen;
 
 public abstract class Ente implements Comparable<Ente>{
 

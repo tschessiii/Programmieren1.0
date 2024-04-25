@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.Kindergarten;
+package Übung_PR2_Hofer.Beispiele.Kindergarten;
 
 public class KindergartenTest {
 

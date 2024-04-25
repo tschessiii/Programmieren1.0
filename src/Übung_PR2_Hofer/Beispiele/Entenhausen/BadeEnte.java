@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.Entenhausen;
+package Übung_PR2_Hofer.Beispiele.Entenhausen;
 
 public class BadeEnte extends Ente {
     protected int gewichtWasser;

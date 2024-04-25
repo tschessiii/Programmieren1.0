@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.Entenhausen;
+package Übung_PR2_Hofer.Beispiele.Entenhausen;
 
 import java.util.Collections;
 import java.util.List;

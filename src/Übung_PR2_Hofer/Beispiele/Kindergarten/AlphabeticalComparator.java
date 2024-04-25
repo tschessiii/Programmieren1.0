@@ -1,7 +1,6 @@
-package Übung_PR2_Hofer.Kindergarten;
+package Übung_PR2_Hofer.Beispiele.Kindergarten;
 
 import java.util.Comparator;
-import java.util.SplittableRandom;
 
 public class AlphabeticalComparator implements Comparator <Kind> {
     @Override
