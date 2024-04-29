@@ -49,7 +49,7 @@ public class KontoApp {
 
         System.out.println("_______________________________");
 
-        //Casten des Jugendkontos:
+        //Casten des Jugendkontos in ein normales Konto:
         Konto konto1 = (Konto) jugendGiroKonto;
 
         konto1.einzahlen(1000.0);
@@ -57,6 +57,15 @@ public class KontoApp {
         konto1.auszahlen(500.0);
         System.out.println("Kontostand nach Auszahlung: " + konto1.getKontostand());
 
+        System.out.println("_______________________________");
+
+
+        // Casten des JugendGiroKontos in ein GiroKonto und erneutes Testen der Methoden einzahlen() und auszahlen()
+        GiroKonto girokonto = (GiroKonto) jugendGiroKonto;
+        girokonto.einzahlen(2000.0);
+        System.out.println("Kontostand nach Einzahlung auf Girokonto: " + girokonto.getKontostand());
+        girokonto.auszahlen(1500.0);
+        System.out.println("Kontostand nach Auszahlung auf Girokonto: " + girokonto.getKontostand());
 
     }
 }
