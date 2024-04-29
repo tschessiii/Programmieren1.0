@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.UebungsbspVererbung.Tiere;
+package Übung_PR2_Hofer.UebungsbspVererbung;
 
 import java.util.ArrayList;
 

@@ -3,6 +3,11 @@ import java.util.ArrayList;
 public class Nature {
     protected ArrayList<Animal> animals;
 
+
+    public Nature(ArrayList<Animal> animals) {
+        this.animals = animals;
+    }
+
     public Nature() {
         animals = new ArrayList<Animal>();
     }

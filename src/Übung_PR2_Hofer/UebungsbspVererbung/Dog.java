@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.UebungsbspVererbung.Tiere;
+package Übung_PR2_Hofer.UebungsbspVererbung;
 
 public class Dog extends Animal {
     protected String name;

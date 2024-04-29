@@ -1,7 +1,6 @@
-package Übung_PR2_Hofer.UebungsbspVererbung.Tiere;
+package Übung_PR2_Hofer.UebungsbspVererbung;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Nature {
     protected ArrayList<Animal> animals;
@@ -9,6 +8,7 @@ public class Nature {
     public Nature(ArrayList animals) {
         this.animals = new ArrayList<>(animals);
     }
+
 
     public ArrayList getAnimals() {
         return animals;

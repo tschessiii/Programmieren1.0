@@ -1,4 +1,4 @@
-package Übung_PR2_Hofer.UebungsbspVererbung.Tiere;
+package Übung_PR2_Hofer.UebungsbspVererbung;
 
 public class Frog extends Animal {
     public Frog(String color, int countEyes) {
