@@ -1,4 +1,4 @@
-package Übung_PR3_Fuchs.at.campus02.pr3.fileio;
+package Übung_PR3_Fuchs.at.campus02.pr3.fileio.ue1;
 
 import java.io.File;
 
@@ -37,6 +37,9 @@ public class ue1 {
 
         // Ist das eine Directory
         System.out.println("Is this a directory? " + file.isDirectory());
+
+        //Ist es eine Versteckte File
+        System.out.println("Is hidden file? "+file.isHidden());
 
         // Checken ob das ein File ist
         System.out.println("Is this a file? " + file.isFile());
