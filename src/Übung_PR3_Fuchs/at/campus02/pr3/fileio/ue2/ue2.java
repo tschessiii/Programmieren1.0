@@ -4,14 +4,19 @@ import java.io.File;
 
 public class ue2 {
     public static void main(String[] args) {
-        // Replace "C:\\Your\\Directory\\Path" with the directory path you want to list
-        File directory = new File("C:\\Users\\s54825\\Documents\\WEB1\\");
+
+        File directory = new File("C:\\Users\\s54825");
 
         if (directory.exists() && directory.isDirectory()) {
             listFilesAndDirectories(directory);
         } else {
             System.out.println("The specified directory does not exist or is not a directory.");
         }
+
+        System.out.println("____________________________________________________");
+
+        File firectory2 = new File("C:\\Users\\s54825\\downloads");
+        listFilesAndDirectories(firectory2);
     }
 
     public static void listFilesAndDirectories(File directory) {
