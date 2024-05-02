@@ -15,7 +15,7 @@ public class AlphabeticalComparator implements Comparator <Kind> {
             // Wenn die Namen unterschiedlich sind, geben Sie den Vergleich der Namen zurück
             return nameComparison;
         } else {
-            // Wenn die Besitzer gleich sind, vergleichen Sie das Gewicht
+            // Wenn die Besitzer gleich sind, vergleichen Sie das Alter
             return Double.compare(o1.getAge(), o2.getAge());
         }
     }
