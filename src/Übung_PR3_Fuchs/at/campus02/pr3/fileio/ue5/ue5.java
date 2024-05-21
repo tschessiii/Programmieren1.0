@@ -5,25 +5,22 @@ import java.io.File;
 public class ue5 {
 
     public static void main(String[] args) {
-        /*
-        Tip: use mkdirs()
-        Write a method (it should take a parameter FILE to work with, which create a directory like, "C:\\campus02\\test\\demo4"
-            - it also should be checked, if the given File is a file or a Directory. + the console messages need to have the information whether it was created or not.
-                -> IF Yes: Directory C:\campus02\test\demo4  created?: false
-                -> IF No: Directory C:\campus02\test\demo4  created?: true
-         */
+        String path = "C:\\Users\\s54825\\Ordner1";
 
-        File dir = new File("C:\\test\\alt1\\da.exe");
-        createDirectories(dir);
+        // Methodenaufruf zum Erstellen von Verzeichnissen und Ausgeben des Ergebnisses
+        boolean verzeichnisErstellt = createDirectory(path);
+        System.out.println("Verzeichnis " + path + " erstellt?: " + verzeichnisErstellt);
+
     }
 
-    public static void createDirectories(File f) {
-        // check if file is a file or directory
-        if (f.isDirectory()) {
-            // perform mkdirs to try create a directory - returns true if success, returns false if no success
-            System.out.println("Directory " + f.getAbsolutePath() + " created?: " + f.mkdir());
-        } else {
-            System.out.println("Directory " + f.getAbsolutePath() + " created?: " + f.mkdir());
-        }
+    public static boolean createDirectory(String path){
+        // Erstellen eines File-Objekts für den angegebenen Verzeichnispfad
+        File verzeichnis = new File(path);
+
+        // Verwenden von mkdirs(), um Verzeichnisse zu erstellen und zu überprüfen, ob sie erfolgreich erstellt wurden
+        boolean verzeichnisErstellt = verzeichnis.mkdirs();
+
+        // Rückgabe von true, wenn die Verzeichnisse erfolgreich erstellt wurden, ansonsten false
+        return verzeichnisErstellt;
     }
 }

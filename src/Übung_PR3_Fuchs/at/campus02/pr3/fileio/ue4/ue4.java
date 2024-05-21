@@ -3,47 +3,52 @@ package Übung_PR3_Fuchs.at.campus02.pr3.fileio.ue4;
 import java.io.File;
 
 public class ue4 {
-
     public static void main(String[] args) {
-        /*
-        Goal: Write a program, which prints all files + relevant attributes of the files to the console. And we also want to know how much storage they need. (Print the total storage of the files to the console at the end.)
-        Tip: use listFiles()
 
-        Details:
-        Create a method, which takes a file as parameter. (Directory Path)
-        - Check if the File is a Directory
-        - All files of the given directory need to be printed, with the following content:
-                - File Name
-                - File Path
-                - File Size
+        String directoryPath = "C:\\Users\\s54825\\Downloads";
+        File directory = new File(directoryPath);
 
-        - In the end we also want to know, what is the size of all files together? (Print it to console)
-
-        Question: What is the difference between:
-            - File.list()
-            - File.listFiles()
-
-         */
-
-        File dir = new File("C:\\Users\\Work\\Desktop\\PR3-21\\00 - Vorstellung");
-        printDirectoryContent(dir);
+        // Überprüfen, ob das angegebene Verzeichnis existiert und ein Verzeichnis ist
+        if (directory.exists() && directory.isDirectory()) {
+            // Methode aufrufen, um die Dateiattribute auszugeben
+            printFilesAttributes(directory);
+        } else {
+            System.out.println("Das angegebene Verzeichnis existiert nicht oder ist kein Verzeichnis.");
+        }
     }
 
-    public static void printDirectoryContent(File f) {
-        if (f.isDirectory()) {
-            // Variable initialized
-            long filesize = 0;
-            // Go trough the directory; listFiles() returns an array of Files (Objects)
-            for (File file : f.listFiles()) {
+    public static void printFilesAttributes(File directory) {
+        // Abrufen der Liste von Dateien und Verzeichnissen im angegebenen Verzeichnis
+        File[] files = directory.listFiles();
+
+        if (files != null) {
+            // Variable zur Berechnung der Gesamtgröße aller Dateien initialisieren
+            long totalFileSize = 0;
+
+            // Iteration über jedes Element im Verzeichnis
+            for (File file : files) {
+                // Überprüfen, ob das Element eine Datei ist
                 if (file.isFile()) {
-                    System.out.println("Filename: " + file.getName() + " Size: " + file.length());
-                    filesize = filesize + file.length();
+                    // Dateiname ausgeben
+                    System.out.println("Dateiname: " + file.getName());
+                    // Dateipfad ausgeben
+                    System.out.println("Dateipfad: " + file.getAbsolutePath());
+
+
+                    // Dateigröße ausgeben
+                    long fileSize = file.length();
+                    System.out.println("Dateigröße: " + fileSize + " bytes");
+                    // Die Dateigröße zur Gesamtgröße hinzufügen
+                    totalFileSize += fileSize;
+                    // Leere Zeile für bessere Lesbarkeit ausgeben
+                    System.out.println();
                 }
             }
-            // print out the complete size of the directory
-            System.out.println(filesize);
+
+            // Gesamtgröße aller Dateien ausgeben
+            System.out.println("Gesamtspeicherplatz aller Dateien: " + totalFileSize + " bytes");
         } else {
-            System.out.println("No Directory");
+            System.out.println("Das Auflisten von Dateien im angegebenen Verzeichnis ist fehlgeschlagen.");
         }
     }
 }

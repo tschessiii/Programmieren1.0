@@ -5,27 +5,44 @@ import java.io.File;
 public class ue3 {
 
     public static void main(String[] args) {
-        File dir = new File("C:\\Users\\Work\\Desktop\\PR3-21\\01 - File IO");
-        System.out.println("Original Path: " + dir.getAbsolutePath());
-        listFilesAndDirectoriesWithSubFolders(dir.getAbsolutePath());
+        RecursiveFileDirectoryLister();
     }
 
-    public static void listFilesAndDirectoriesWithSubFolders(String path) {
-        File root = new File(path);
-        File[] list = root.listFiles();
+    public static void RecursiveFileDirectoryLister(){
+        String directorypath = "C:\\Users\\s54825\\Downloads";
+        System.out.println("Original Path: "+directorypath);
 
-        if (list == null) return;
+        File directory = new File(directorypath);
 
-        for (File f : list) {
-            if (f.isDirectory()) {
-                // rekursiver Aufruf
-                System.out.println("Directory: " + f.getAbsolutePath());
-                listFilesAndDirectoriesWithSubFolders(f.getAbsolutePath());
-            } else {
-                System.out.println("File: " + f.getAbsolutePath());
-            }
+        if(directory.exists() && directory.isDirectory()){
+            listFilesAndDirectories(directory);
+        }else {
+            System.out.println("The specified directory does not exist or is not a directory.");
         }
 
     }
-}
 
+    public static void listFilesAndDirectories(File directory) {
+        File[] files = directory.listFiles();
+
+
+        //If Schleife , falls files also die directory gleich null ist
+        if (files != null) {
+            //For Schleife um durch das komplette Array durch zu gehen
+            for (File file : files) {
+                //Wenn es ein File ist dann gebend as aus!
+                if (file.isFile()) {
+                    System.out.println("File: " + file.getAbsolutePath());
+                //Wenn es eine Directory ist gebe das aus
+                } else if (file.isDirectory()) {
+                    System.out.println("Dir: " + file.getAbsolutePath());
+                    //Methode erneut erwähnen damit er die Methode auch wieder aufruft
+                    listFilesAndDirectories(file);
+                }
+            }
+            //Sollte die File gleich Null sein gebe das aus
+        } else {
+            System.out.println("Failed to list files and directories in the specified directory.");
+        }
+    }
+}
