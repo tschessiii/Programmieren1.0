@@ -9,6 +9,7 @@ public class ClockAPP {
         Thread thread = new Thread(clockThread);
         thread.start();
 
+
         // Haupt-Thread, der auf Benutzereingabe wartet
         System.out.println("Press any key to stop the clock...");
 
