@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class kritischeSenktion implements Runnable {
 
-        private boolean isRunning = true;
-        private String name;
+        private final boolean isRunning = true;
+        private final String name;
 
         public static Object lock = new Object();
 
@@ -16,9 +16,9 @@ public class kritischeSenktion implements Runnable {
 
     @Override
         public void run() {
-            synchronized (lock);
-            for (int i = 0; i < 10; i++) {
-                if(isRunning == false){
+            //synchronized (lock);
+        for (int i = 0; i < 10; i++) {
+                if(!isRunning){
                     break;
                 }
                 System.out.println("Ich bin: "+name+" und ich bin inside: "+Thread.currentThread().getName());
