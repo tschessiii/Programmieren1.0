@@ -30,30 +30,52 @@ public class LinkedList {
     }
 
 
-    public void addNodeFirstPos(String lebensmittel){
+    public void addNodeFirstPos(String lebensmittel) {
         //Knoten/Node erstellen
         Node newNode = new Node(lebensmittel);
 
 
-        if(first == null){
+        if (first == null) {
             first = newNode;
             last = newNode;
-        }else {
+        } else {
             newNode.setNext(first);
             first = newNode;
 
         }
     }
 
-    public void deleteIndexAtPos(int pos){
+    public void deleteIndexAtPos(int pos) {
         Node current = first;
+        //Info Pos = 0 bedeutet erster Knoten
 
-        //Suchen der korrekten Position
-        //0<3
-        for(int i = 0; i < pos; i++){
+        if (pos == 0) {
+            return;
 
-            //Um einen Knoten weiterspringen
-            current = current.getNext();
+            //Element an erster Stelle soll gelöscht werden
+        } else if (pos == 0) {
+
+            //d.h. zweites Element wird zum ersten
+            first = current.getNext();
+
+        } else {
+
+            //Suchen der korrekten Position
+            //0<3
+            //1 < 1 --> Schleifenabbruch (Bedingung nicht erfüllt)
+            for (int i = 0; i < pos -1; i++) {
+                //Bereits vorzeitig das
+                if (current == last) {
+                    return;
+                }
+
+                //Um einen Knoten weiterspringen
+                current = current.getNext();
+
+            }
+
+            //Referenz verändern
+            current.setNext(current.getNext().getNext());
         }
 
 
@@ -66,7 +88,7 @@ public class LinkedList {
         Node newNode = new Node(lebensmittel);
 
         //Code wenn Liste leer ist
-        if(first == null){
+        if (first == null) {
             first = newNode;
             last = newNode;
         }
@@ -76,10 +98,6 @@ public class LinkedList {
             last.setNext(newNode);
             last = newNode;
         }
-
-
-
-
 
 
     }
